@@ -4,7 +4,7 @@ setup(
     name='snowflake',
     version='0.1',
     packages=find_packages(include=['snowflake', 'let_it_snow.*']),
-    requires=[
+    install_requires=[
         'numpy',
         'turtle'
     ]
