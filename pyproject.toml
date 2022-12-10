@@ -23,6 +23,8 @@ homepage = "https://www.sykno-rf.de"
 license = "MIT"
 
 
+[tool.setuptools.package-data]
+test = ['snowflake', 'let_it_snow.*']
 [tool.poetry.dependencies]
 python = ">=3.8 < 3.11"
 setuptools = "^65.6.3"
