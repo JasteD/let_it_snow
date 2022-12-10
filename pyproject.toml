@@ -1,0 +1,48 @@
+# how to setup a good pyproject.toml file:
+# https://github.com/python-poetry/poetry/blob/master/pyproject.toml
+
+[tool.poetry]
+name = "sykno_py"
+version = "0.1.0"
+description = "virtuel env for Sykno projects"
+
+authors = ["Paatsch Jan-Philipp <janphilipp.paatsch@fau.de>",
+            "Michler Fabian <>",
+            "Scheiner Benedict <>"]
+
+maintainers = ["Paatsch Jan-Philipp <janphilipp.paatsch@fau.de>",
+               "Michler Fabian <>",
+               "Scheiner Benedict <>"]
+
+readme = "README.md"
+
+homepage = "https://www.sykno-rf.de"
+
+repository = "https://gitlab.com/sykno/fp_jan_py.git"
+
+license = "MIT"
+
+
+[tool.poetry.dependencies]
+python = ">=3.8 < 3.11"
+setuptools = "^65.6.3"
+poetry-core = "^1.4.0"
+poetry-plugin-export = "^1.2.0"
+loguru = "^0.6.0"
+click = "^8.1.3"
+matplotlib = "^3.5.1"
+pathlib = "^1.0.1"
+saleae = "^0.12.0"
+pandas = "^1.4.3"
+seaborn = "^0.12.0"
+numpy = "^1.23.2"
+scipy = "^1.9.3"
+PyQt5 = "^5.15.0"
+pyqtgraph = "^0.13.1"
+pyserial = "^3.5"
+
+#sykno = {git = "https://gitlab.com/sykno/fp_jan_py.git", branch="master"}
+
+[build-system]
+requires = ["poetry-core>=1.1.0"]
+build-backend = "poetry.core.masonry.api"
