@@ -18,7 +18,7 @@ readme = "README.md"
 
 homepage = "https://www.sykno-rf.de"
 
-repository = "https://gitlab.com/sykno/fp_jan_py.git"
+#repository = "https://gitlab.com/sykno/fp_jan_py.git"
 
 license = "MIT"
 
